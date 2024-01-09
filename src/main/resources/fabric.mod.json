@@ -8,8 +8,9 @@
 		"Caoimhe Byrne"
 	],
 	"contact": {
-		"homepage": "https://caoimhe.dev/",
-		"sources": "https://github.com/caoimhebyrne/thirdpersonboating"
+		"homepage": "https://modrinth.com/mod/thirdpersonboating",
+		"sources": "https://github.com/caoimhebyrne/thirdpersonboating",
+		"issues": "https://github.com/caoimhebyrne/thirdpersonboating/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/thirdpersonboating/icon.png",
