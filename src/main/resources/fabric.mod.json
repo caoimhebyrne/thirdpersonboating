@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "thirdpersonboating",
+	"version": "${version}",
+	"name": "ThirdPersonBoating",
+	"description": "Automatically switches to third person upon entering a boat.",
+	"authors": [
+		"Caoimhe Byrne"
+	],
+	"contact": {
+		"homepage": "https://caoimhe.dev/",
+		"sources": "https://github.com/caoimhebyrne/thirdpersonboating"
+	},
+	"license": "MIT",
+	"icon": "assets/thirdpersonboating/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.caoimhe.thirdpersonboating.ThirdPersonBoating"
+		]
+	},
+	"mixins": [
+		"thirdpersonboating.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}
