@@ -14,6 +14,12 @@ group = "dev.caoimhe.thirdpersonboating"
 version = "1.0.0"
 base.archivesName = "thirdpersonboating"
 
+loom {
+	runs {
+		remove(getByName("server"))
+	}
+}
+
 repositories {
 	maven("https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1")
 }
