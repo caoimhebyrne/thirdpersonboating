@@ -1,6 +1,6 @@
 object Constants {
-	const val MINECRAFT_VERSION = "1.20.6"
-	const val YARN_VERSION = "1.20.6+build.3"
+	const val MINECRAFT_VERSION = "1.21"
+	const val YARN_VERSION = "1.21+build.1"
 	const val LOADER_VERSION = "0.15.11"
 
 	const val DEVAUTH_VERSION = "1.2.0"
@@ -11,7 +11,7 @@ plugins {
 }
 
 group = "dev.caoimhe.thirdpersonboating"
-version = "1.0.0"
+version = "1.0.1"
 base.archivesName = "thirdpersonboating"
 
 loom {
@@ -35,8 +35,8 @@ dependencies {
 java {
 	withSourcesJar()
 
-	sourceCompatibility = JavaVersion.VERSION_17
-	targetCompatibility = JavaVersion.VERSION_17
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
 }
 
 tasks {
